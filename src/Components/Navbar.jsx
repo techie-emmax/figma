@@ -6,7 +6,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
  
-    <div className="flex items-center jusify-center gap-88 mt-2 ">
+    <div className="flex items-center jusify-center gap-88 p-5 ">
         <div className="flex items-center">
       <img
         src="src/assets/svg-662123605_1698@2x.png" alt="" className="w-[60px] h-[60px]"
@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
         <div>
           <NavLink to="/service" className={({ isActive }) =>
-    isActive ? "text-[#28D08A] underline underline-offset-8" : ""
+    isActive ? "font-regular font-display text-[#28D08A] underline underline-offset-8" : "" 
     }>Service</NavLink>
         </div>
         <div>

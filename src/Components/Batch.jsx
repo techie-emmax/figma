@@ -1,12 +1,14 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 const Batch = () => {
+  /* const[isClicked, setisClicked]= useState(false);
+  const handleClick = ()=>{
+  
+  } */
   return (
     <div className="bg-[#F0F8FF] w-full">
-    
       <div className="flex flex-row items-center justify-between gap-38 ">
         <div className="font-display font-bold text-[61px] leading-tight cursor mt-20 ml-50">
-        
           <p>
             Secure <mark className="bg-[#F0F8FF] text-green-400">business</mark>
             <br />
@@ -22,7 +24,7 @@ const Batch = () => {
             <button className="bg-[#28D08A] pt-[16px] pr-[10px] pb-[16px] pl-[10px] rounded-lg text-[16px] font-display font-bold hover:bg-[#171A1F] text-[#FFFFFF]">
               Request a Free Demo
             </button>
-            <button className="bg-[#171A1F] pt-[16px] pr-[10px] pb-[16px] pl-[10px] rounded-lg text-[16px] font-display font-bold hover:bg-[#28D08A] text-[#FFFFFF]">
+            <button className="bg-[#171A1F] pt-[16px] pr-[28px] pb-[16px] pl-[28px] rounded-lg text-[16px] font-display font-bold hover:bg-[#28D08A] text-[#FFFFFF]">
               Hire an expert
             </button>
           </span>
@@ -33,35 +35,36 @@ const Batch = () => {
             alt="fuck"
             className=" border border-[#FFFFFF] rounded-[20px]"
           />
-          <img src="src/assets/Frame 17.png"/>
+          <img src="src/assets/Frame 17.png"className="mt-5 mb-10" />
         </div>
       </div>
-      <center><hr className="w-[1380px] mt-5" /></center>
-      <div className="flex items-center justify-between ml-50 mt-10 ">
-        <div>
-          <h5 className="font-display text-[25px] font-medium text-[#171A1F]">
-            Thousand of <br />
-            businesses use Techty
-          </h5>
-        </div>
-    
-      
-          <div className="flex items-center animate-[scroll_20s_ease_infinite] gap-20 w-[615px]">
-            <span>
-        <img src="/src/assets/Logo.png" alt="" />
-            </span>
-            <span>
-        <img src="/src/assets/Logo (1).png" alt="" />
-            </span>
-            <span> <img src="/src/assets/Logo (2).png" alt="" />
-            </span>
-            <span>
-        <img src="/src/assets/Logo (3).png" alt="" />
-            </span>
-   
-        </div>
-        </div>
-    
+      <center>
+        <hr className="w-[1500px] mt-10" />
+      </center>
+      <div className="flex items-center justify-center pl-50  mt-10 gap-20">
+          <p className="font-display text-[26px] font-medium text-[#171A1F] leading-tight">
+            Thousand of businesses use Techty
+          </p>
+
+        <Marquee scrollamount="50" className="ml-20 mr-40">
+          <span className="block">
+            <img src="/src/assets/Logo.png" alt="" className="w-[100%]"/>
+          </span>
+          <span className="block ml-15">
+            <img src="/src/assets/Logo (1).png" alt="" className="w-[100%]"/>
+          </span>
+          <span className="block ml-15">
+            
+            <img src="/src/assets/Logo (2).png" alt="" className="w-[100%]"/>
+          </span>
+          <span className="block ml-15">
+            <img src="/src/assets/Logo (3).png" alt="" className="w-[100%]"/>
+          </span>
+          <span className="block ml-15">
+            <img src="/src/assets/img done by me.png" alt="" className="w-[100%]"/>
+          </span>
+        </Marquee>
+      </div>
     </div>
   );
 };

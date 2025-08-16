@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="flex flex-col w-full">
     <div className="">
-        <div className="flex items-center justify-center mt-20 mb-10 gap-70 bg-[#F0F8FF]">
-          <img src="/src/assets/Frame 1000008371 (1).png" alt="fuck" />
+        <div className="flex items-center justify-center  gap-40 bg-[#F0F8FF]">
+          <img src="/src/assets/Frame 1000008371 (1).png" className="rounded-lg mt-20 mb-20" alt="fuck" />
           <p className="text-[49px] font-display font-bold text-[#171A1F]">
             <mark className="bg-[#F0F8FF] text-[#28D08A]">About</mark> Techty
             <span className="block">

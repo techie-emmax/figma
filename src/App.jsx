@@ -10,21 +10,24 @@ import Contact from "./Pages/Contact";
 
 
 
+
 const App = () => {
   return (
     <div className="">
     <section className='flex flex-col justify-between items-center bg-[#F0F8FF]'>
-      <BrowserRouter>
-      <Navbar/>
-      <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/about' element={<About/>} />
-      <Route path='/service' element={<Service/>} />
-      <Route path='/blog' element={<Blog/>} />
-      <Route path='/contact' element={<Contact/>} />
-      </Routes>
-  <Footer/>
-      </BrowserRouter>
+   
+     <BrowserRouter> 
+     <Navbar/>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer/>
+        </BrowserRouter>
+
   </section>
   
   </div>

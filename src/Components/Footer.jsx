@@ -22,9 +22,9 @@ const Footer = () => {
       </h5>
       </div>
      <div>
-     <div className='flex flex-row items-start justify-center gap-[40%]'>
+     <div className='flex flex-row items-start justify-center gap-[40%] mb-5'>
 <h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>QuickLink
-  <span className='flex flex-col gap-[16px] block mt-7'>
+  <span className='flex flex-col gap-[16px] mt-7'>
     <Link to="/about" className="text-[20px] font-display font-medium text-[#FFFFFF]">About</Link>
     <Link to="/service" className="text-[20px] font-display font-medium text-[#FFFFFF]">Service</Link>
     <Link to="/blog" className="text-[20px] font-display font-medium text-[#FFFFFF]">Blog</Link>
@@ -32,7 +32,7 @@ const Footer = () => {
   </span>
 </h5>
 <h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>Socials
-  <span className='flex flex-col gap-[16px] mt-7 block'>
+  <span className='flex-col gap-[16px] mt-7 block'>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">Twitter</Link>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">LinkedIn</Link>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">Facebook</Link>
@@ -40,11 +40,11 @@ const Footer = () => {
 </h5>
 <h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>
   Our Newsletter
-  <span className='flex flex-col gap-[16px] mt-7 block'>
+  <span className='flex-col gap-[16px] mt-7 block'>
     <p className='text-[20px] font-display font-medium text-[#FFFFFF]'>Subscribe to our newsletter to<br/>
     get our news delivered to you.</p>
     <div className='flex items-center mt-5'>
-    <input type="email" placeholder='Email address' className='border outline-none pt-[3px] pb-[3px] pl-[10px] pr-[10px] border-[#FFFFFF] rounded-md placeholder:text-[20px] placeholder:font-display  placeholder:pl-1 placeholder:font-regular'/>
+    <input type="email" placeholder='Email address' className='border input:font-display input:font-regular outline-none pt-[3px] pb-[3px] pl-[10px] pr-[15px] border-[#FFFFFF] rounded-md placeholder:text-[15px] placeholder:font-display  placeholder:pl-1 placeholder:font-regular'/>
     <Link to="" className='pt-[3px] pb-[3px] pl-[10px] -ml-18 pr-[10px] text-[#FFFFFF] font-display font-regular rounded-md bg-[#28D08A]' >Join</Link>
     </div>
   </span>
