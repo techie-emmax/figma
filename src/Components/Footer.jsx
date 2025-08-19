@@ -32,7 +32,7 @@ const Footer = () => {
   </span>
 </h5>
 <h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>Socials
-  <span className='flex-col gap-[16px] mt-7 block'>
+  <span className='flex flex-col gap-[16px] mt-7'>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">Twitter</Link>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">LinkedIn</Link>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">Facebook</Link>

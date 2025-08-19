@@ -1,12 +1,30 @@
 import React from "react";
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 
 
 const Navbar = () => {
+
+  const location = useLocation();
+  const currentPath = location.pathname;
+
+
+  const navbarClasses = `flex items-center justify-center gap-88 p-5 w-full ${
+    currentPath === '/blog' || currentPath === '/contact' ? 'bg-white' : 'bg-transparent'
+  }`
+
+  const buttonClasses = `
+  border font-display rounded-lg p-2
+  pt-[16px] pb-[10px] pl-[10px] pr-[10px]${
+    currentPath === '/blog' || currentPath === '/contact'
+      ? 'border-[#6F7681] bg-white text-[#000000] hover:bg-[#28D08A]'
+      : 'border-[#000000] bg-black text-[#FFFFFF] hover:bg-[#28D08A]'
+  }
+`;
+
   return (
  
-    <div className="flex items-center jusify-center gap-88 p-5 ">
+    <div className={navbarClasses}>
         <div className="flex items-center">
       <img
         src="src/assets/svg-662123605_1698@2x.png" alt="" className="w-[60px] h-[60px]"
@@ -37,7 +55,7 @@ const Navbar = () => {
     }>Contact</NavLink>
         </div>
       </div>
-      <button className="border border-[#000000] font-display hover:[#28D08A] bg-black pt-[16px] pb-[10px] pl-[10px] pr-[10px] rounded-lg p-2 text-white ">
+      <button className={buttonClasses}>
         Request a Free Demo
       </button>
     </div>

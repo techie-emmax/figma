@@ -1,10 +1,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 const Batch = () => {
-  /* const[isClicked, setisClicked]= useState(false);
-  const handleClick = ()=>{
-  
-  } */
+
   return (
     <div className="bg-[#F0F8FF] w-full">
       <div className="flex flex-row items-center justify-between gap-38 ">
