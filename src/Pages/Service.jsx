@@ -1,128 +1,87 @@
 import React, { useState } from "react";
 import Empower from "../Components/Empower";
-const Service = () => {
-  const [isHovered, setisHovered] = useState(false);
 
-  const handleMouseEnter = () => {
-    setisHovered(true);
+const Service = () => {
+  // Use a single state for hover to simplify logic
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
   };
 
   const handleMouseLeave = () => {
-    setisHovered(false);
+    setHoveredIndex(null);
   };
 
+  const services = [
+    {
+      title: "Online Marketing",
+      image: "src/assets/Frame 1000008386.png",
+      description: "In the new era of technology we look into the future with certainty and pride.",
+    },
+    {
+      title: "Startup Business",
+      image: "src/assets/Frame 1000008386 (1).png",
+      description: "In the new era of technology we look into the future with certainty and pride.",
+    },
+    {
+      title: "Business Growth",
+      image: "src/assets/Frame 1000008386 (2).png",
+      description: "In the new era of technology we look into the future with certainty and pride.",
+    },
+    {
+      title: "Development",
+      image: "src/assets/Frame 1000008386 (3).png",
+      description: "In the new era of technology we look into the future with certainty and pride.",
+    },
+  ];
+
   return (
-    <div className="">
-           
-      <div className="bg-[#F0F8FF] flex flex-col items-center justify-center mt-10">
-               
+    <div className="bg-[#F0F8FF]">
+      <div className="flex flex-col items-center justify-center pt-10">
         <div className="flex flex-col justify-center items-center text-center">
-                   
           <p className="text-[49px] text-[#171A1F] font-bold font-display">
-                        We provide the best            
-            <mark className="bg-[#F0F8FF] text-[#28D08A]"> service </mark>     
-                  solutions.           
-            <p className="block text-[16px] text-[#4E4E4E] font-regular font-display">
-                            We're constantly pushing the boundaries of what's
-              possible and               seeking new ways to <br />             
-              improve our services and help our clients achieve their goals.    
-                 
-            </p>
-                     
+            We provide the best <mark className="bg-[#F0F8FF] text-[#28D08A]">service</mark> solutions.
           </p>
-                 
+          <p className="block text-[16px] text-[#4E4E4E] font-regular font-display mt-4">
+            We're constantly pushing the boundaries of what's possible and seeking new ways to <br />
+            improve our services and help our clients achieve their goals.
+          </p>
         </div>
-               
-        <div className="flex items-center justify-center mt-5 gap-5">
-                   
-          <span className="bg-[#FFFFFF] px-5 py-5 rounded-md">
-                        <img src="src/assets/Frame 1000008386.png" alt="fuck" />
-                       
-            <p className="text-[25px] font-display font-bold text-[#171A1F] mt-4">
-                            Online Marketing              
-              <span className="block text-[16px] font-display font-regular text-[#4E4E4E]">
-                                In the new era of technology <br />
-                                we look in the future with <br />               
-                certainty and pride.              
-              </span>
-                     
+
+        <div className="flex flex-wrap justify-center mt-10 gap-5">
+          {services.map((service, index) => (
+            <div
+              key={index}
+              className="bg-white p-5 rounded-md w-72"
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={service.image} alt={service.title} />
+              <p className="text-[25px] font-display font-bold text-[#171A1F] mt-4">
+                {service.title}
+                <span className="block text-[16px] font-display font-regular text-[#4E4E4E]">
+                  {service.description}
+                </span>
+              </p>
               <div className="flex items-center">
-                             
                 <img
                   src="src/assets/Frame (3).png"
-                  className="mt-3"
-                  onMouseEnter={handleMouseEnter}
-                  onMouseLeave={handleMouseLeave}
+                  alt="contact icon"
+                  className="mt-3 cursor-pointer"
                 />
-                {isHovered ? 
-                  <span className="animate-[fade_5s_ease_infinite] font-display mt-3 font-regular text-[20px]">
+                {hoveredIndex === index && (
+                  <span className="animate-fadeIn font-display mt-3 font-regular text-[20px]">
                     Contact
-                  </span>: <p></p>
-                }
-                <div />           
+                  </span>
+                )}
               </div>
-                        
-            </p>
-                     
-          </span>
-                   
-          <span className="bg-[#FFFFFF] px-5 py-5 rounded-lg">
-                       
-            <img src="src/assets/Frame 1000008386 (1).png" alt="fuck" />       
-               
-            <p className="text-[25px] font-display font-bold text-[#171A1F] mt-4">
-                            Startup Business              
-              <span className="block text-[16px] font-display font-regular text-[#4E4E4E]">
-                                In the new era of technology <br />
-                                we look in the future with <br />               
-                certainty and pride.              
-              </span>
-                          
-              <img src="src/assets/Frame (3).png" alt="fuck" className="mt-5" />
-                        
-            </p>
-                    
-          </span>
-                   
-          <span className="bg-[#FFFFFF] px-5 py-5 rounded-lg">
-                       
-            <img src="src/assets/Frame 1000008386 (2).png" alt="fuck" />       
-              
-            <p className="text-[25px] font-display font-bold text-[#171A1F] mt-4">
-                            Business Growth              
-              <span className="block text-[16px] font-display font-regular text-[#4E4E4E]">
-                                In the new era of technology <br />
-                                we look in the future with <br />               
-                certainty and pride.              
-              </span>
-                         
-            </p>
-                       
-            <img src="src/assets/Frame (3).png" alt="fuck" className="mt-5" /> 
-                   
-          </span>
-                   
-          <span className="bg-[#FFFFFF] px-5 py-5 rounded-lg">
-                       
-            <img src="src/assets/Frame 1000008386 (3).png" alt="fuck" />       
-              
-            <p className="text-[25px] font-display font-bold text-[#171A1F] mt-4">
-                            Development            
-              <span className="block text-[16px] font-display font-regular text-[#4E4E4E]">
-                                In the new era of technology <br />
-                                we look in the future with <br />               
-                certainty and pride.              
-              </span>
-                        
-            </p>
-          <img src="src/assets/Frame (3).png" alt="fuck"/>   
-                 
-          </span>
-               
+            </div>
+          ))}
         </div>
-             
       </div>
-            <Empower />     
+      
+      <Empower />
       <div className="bg-[#F0F8FF] p-15">
                
         <p className="font-bold font-display text-[49px] text-center">
@@ -467,6 +426,8 @@ const Service = () => {
                
       </div>
             
+
+      
     </div>
   );
 };
