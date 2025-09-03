@@ -4,20 +4,20 @@ const Batch = () => {
 
   return (
     <div className="bg-[#F0F8FF] w-full">
-      <div className="flex flex-row items-center justify-between gap-38 ">
-        <div className="font-display font-bold text-[61px] leading-tight cursor mt-20 ml-50">
-          <p>
+      <div className="flex md:flex-row sm:flex-col items-center justify-between gap-38 ">
+        <div className="font-display font-bold text-[61px] leading-tight cursor mt-20 ml-10 md:ml-50">
+          <p className="text-center md:text-left">
             Secure <mark className="bg-[#F0F8FF] text-green-400">business</mark>
             <br />
             with Techty security.
-            <p className="text-[#4E4E4E] text-[20px] font-medium leading-normal">
+            <p className="text-[#4E4E4E] text-[20px] font-medium text-center md:text-left leading-normal">
               we have considered our solutions to support every stage of your
               <br />
               growth.We are the fastest and easiest way to launch an <br />
               attractive and feature-complete Saas showcase.
             </p>
           </p>
-          <span className="flex items-center gap-[18px] mt-7">
+          <span className="flex items-center justify-center md:justify-start gap-[18px] mt-7">
             <button className="bg-[#28D08A] pt-[16px] pr-[10px] pb-[16px] pl-[10px] rounded-lg text-[16px] font-display font-bold hover:bg-[#171A1F] text-[#FFFFFF]">
               Request a Free Demo
             </button>
@@ -26,7 +26,7 @@ const Batch = () => {
             </button>
           </span>
         </div>
-        <div className="mt-20 mr-40">
+        <div className="-mt-16 md:mt-20  md:mr-40">
           <img
             src="/src/assets/Frame 14.png"
             alt="fuck"
@@ -36,14 +36,14 @@ const Batch = () => {
         </div>
       </div>
       <center>
-        <hr className="w-[1500px] mt-10" />
+        <hr className="w-[700px] md:w-[1500px] mt-10" />
       </center>
-      <div className="flex items-center justify-center pl-50  mt-10 gap-20">
-          <p className="font-display text-[26px] font-medium text-[#171A1F] leading-tight">
+      <div className="flex items-center justify-center pl-10  md:pl-50  mt-10 gap-10 md:gap-20">
+          <p className="font-display text-[26px] mb-2 md:mb-0 font-medium text-[#171A1F] leading-tight">
             Thousand of businesses use Techty
           </p>
 
-        <Marquee scrollamount="50" className="ml-20 mr-40">
+        <Marquee scrollamount="50" className="ml-3 md:ml-20 mr-2 md:mr-40">
           <span className="block">
             <img src="/src/assets/Logo.png" alt="" className="w-[100%]"/>
           </span>

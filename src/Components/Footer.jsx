@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='bg-[#495460] w-full '>
-    <div className='flex jusify-between items-start gap-[40%] bg-[#495460] ml-20 mt-20'>
+    <div className='flex jusify-between items-start sm:gap-[20%] md:gap-[40%] bg-[#495460] ml-20 mt-20 '>
         <h2 className='font-display font-bold text-[#FFFFFF] text-[49px]'>Ready to take your business<br />to the next level</h2>
 <button className='border border-[#28D08A] font-display bg-[#28D08A] hover:bg-[#000000] pt-[16px] pb-[10px] pl-[15px] pr-[15px] rounded-lg p-2 m-4 text-white' >Request a Free Demo</button>
     </div>
     <center> <hr className='text-[#F0F8FF] w-[91%] mt-10'/></center>
    
-    <div className='flex items-start justify-top gap-[20%] ml-20  mt-15 '>
+    <div className='flex sm:flex-col md:flex-row items-start justify-top sm:gap-[5%] md:gap-[20%] ml-20 mt-15 '>
       <div className='flex gap-5 items-center'><img src="./src/assets/svg-662123605_1698@2x.png" alt="fuck" className="w-[60px] h-[60px]" />
       <h5 className="font-display font-bold text-4xl w-[104px] h-[37px] text-[#FFFFFF]">Techty
-      <span className='flex mt-15 items-center gap-[4px]'>
+      <span className='flex mt-5 md:mt-15 items-center gap-[4px]'>
         <img src="/src/assets/Vector (2).png" alt="" />
         <img src="/src/assets/Vector (1).png" alt="" />
         <img src="/src/assets/instagram-line.png" alt="" />
@@ -22,17 +22,17 @@ const Footer = () => {
       </h5>
       </div>
      <div>
-     <div className='flex flex-row items-start justify-center gap-[40%] mb-5'>
+     <div className='flex sm:flex-col md:flex-row items-start justify-center gap-[40%] sm:mt-29 md:mt-none mb-5'>
 <h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>QuickLink
-  <span className='flex flex-col gap-[16px] mt-7'>
+  <span className='flex flex-col gap-[10px] md:gap-[16px]  mt-7'>
     <Link to="/about" className="text-[20px] font-display font-medium text-[#FFFFFF]">About</Link>
     <Link to="/service" className="text-[20px] font-display font-medium text-[#FFFFFF]">Service</Link>
     <Link to="/blog" className="text-[20px] font-display font-medium text-[#FFFFFF]">Blog</Link>
     <Link to="/contact" className="text-[20px] font-display font-medium text-[#FFFFFF]">Contact</Link>
   </span>
 </h5>
-<h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>Socials
-  <span className='flex flex-col gap-[16px] mt-7'>
+<h5 className='font-display font-bold text-[25px] text-[#FFFFFF] sm:mt-5 md:mt-0' >Socials
+  <span className='flex flex-col gap-[10px] md:gap-[16px] mt-7 sm:mb-5 md:mb-0'>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">Twitter</Link>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">LinkedIn</Link>
     <Link to={""} className="text-[20px] font-display font-medium text-[#FFFFFF]">Facebook</Link>
@@ -40,7 +40,7 @@ const Footer = () => {
 </h5>
 <h5 className='font-display font-bold text-[25px] text-[#FFFFFF]'>
   Our Newsletter
-  <span className='flex-col gap-[16px] mt-7 block'>
+  <span className='sm:flex-row md:flex-col gap-[16px] mt-7 block'>
     <p className='text-[20px] font-display font-medium text-[#FFFFFF]'>Subscribe to our newsletter to<br/>
     get our news delivered to you.</p>
     <div className='flex items-center mt-5'>

@@ -15,14 +15,14 @@ const Contact = () => {
           </span>
         </p>
       </div>
-      <div className="flex items-top justify-center mt-10 mb-5  gap-47">
+      <div className="flex sm:flex-col md:flex-row items-top justify-center sm:text-center md:text-left md:mt-10 md:mb-5 sm:gap-20 md:gap-47">
         <div className="">
           <p className="font-display font-bold text-[25px]">
             we are happy to discuss your project
             <br />
             and answer any question
           </p>
-          <div className="flex items-center gap-15 mt-10">
+          <div className="flex items-center gap-15 mt-10 sm:px-15 md:px-0">
             <div>
               <span className="flex items-center gap-4">
                 <svg
@@ -44,7 +44,7 @@ const Contact = () => {
                   Toll Number
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] mr-17 text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] mr-17 sm:mt-2 md:mt-0 text-[#6F7681]">
                 +234 801 272 3390
               </p>
             </div>
@@ -71,12 +71,12 @@ const Contact = () => {
                   Mail Address
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] sm:mt-2 md:mt-0 text-[#6F7681]">
                 Info@example.com
               </p>
             </div>
           </div>
-          <div className="flex mt-5 gap-25">
+          <div className="flex mt-5 gap-25 sm:px-15 md:px-0">
             <div>
               <span className="flex items-center gap-4">
                 <svg
@@ -99,7 +99,7 @@ const Contact = () => {
                   Working Hours
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] sm:mt-2 md:mt-0 sm:pr-17 md:pl-0 text-[#6F7681]">
                 Mon - Friday
                 <span className="block">9a.m - 8 p.m</span>
               </p>
@@ -126,14 +126,14 @@ const Contact = () => {
                   Office Address
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] sm:mt-2 md:mt-0 sm:pr-17 md:pr-0 text-[#6F7681]">
                 Ikoyi, Lagos.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="bg-[#FFFFFF] pt-5 pl-5 pb-5 pr-5 rounded-lg">
+        <div className="sm:bg-[#FFFFFF] md:bg-[#FFFFFF] pt-5 pl-5 pb-5 pr-5 border md:border-0 rounded-lg">
           <p className="font-display font-medium text-[31px]">
             Send us Message
             <span className="block font-display font-regular text-[16px] text-[#6F7681] mt-5">

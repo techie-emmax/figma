@@ -3,7 +3,7 @@ import React from "react";
 const Baatc = () => {
   return (
     <div className="flex flex-col mt-10 mb-[#FFFFFF] bg-[#FFFFFF]">
-      <div className="flex items-center ml-30 p-35 gap-5">
+      <div className="flex flex-col md:flex-row items-center md:ml-30 md:p-35 gap-5">
         <p className="text-[#171A1F] font-bold font-display text-[49px] leading-tight">
           Our most priority is to
           <br />
@@ -23,10 +23,10 @@ const Baatc = () => {
         </p>
         <img src="/src/assets/Frame 45.png" alt="" className="rounded-lg" />
       </div>
-      <div className="flex items-center bg-[#171A1F]">
+      <div className="flex flex-col md:flex-row items-center bg-[#171A1F]">
   <img src="/src/assets/Rectangle (1).png" className="" />
   <div className="flex flex-col items-center justify-center">
-    <p className="font-display font-bold text-[49px] text-[#FFFFFF] leading-tight">
+    <p className="font-display font-bold text-[49px] sm:mt-5 sm:mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
       Personalize your business<br/>
       <mark className="bg-[#171A1F] text-[#28D08A]"> strategy</mark> to
       reach out.
@@ -39,7 +39,7 @@ const Baatc = () => {
     </p>
    </span>
  </p>
-    <span className="flex items-center">
+    <span className="flex mb-5 md:mb-0 items-center">
       <img src="/src/assets/Frame 52.png" alt="fuck" />
       <img src="/src/assets/Frame 54.png" alt="fuck" />
     </span>

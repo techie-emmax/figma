@@ -14,7 +14,7 @@ import Contact from "./Pages/Contact";
 const App = () => {
   return (
     <div className="">
-    <section className='flex flex-col justify-between items-center bg-[#F0F8FF]'>
+    <section className='flex flex-col justify-between items-center'>
    
      <BrowserRouter> 
      <Navbar/>

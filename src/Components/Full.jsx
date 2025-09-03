@@ -2,8 +2,8 @@ import React from 'react'
 
 const Full = () => {
   return (
-    <div className='flex items-center pl-23 pt-35 pb-35 bg-[#F0F8FF] gap-20 w-full
-'><div className='ml-30'>
+    <div className='flex items-center pl-10 md:pl-23 pt-35 pb-35 bg-[#F0F8FF] gap-5 md:gap-20 w-full
+'><div className='md:ml-30'>
     <h4 className='text-[31px] font-display font-bold'><mark className='text-[31px] font-display font-bold text-[#28D08A] bg-[#F0F8FF]'>Unleash</mark> businesses'<br/>full potential </h4>
 </div>
 <div>

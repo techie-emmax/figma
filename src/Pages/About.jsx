@@ -4,10 +4,13 @@ const About = () => {
   return (
     <div className="flex flex-col w-full">
     <div className="">
-        <div className="flex items-center justify-center  gap-40 bg-[#F0F8FF]">
-          <img src="/src/assets/Frame 1000008371 (1).png" className="rounded-lg mt-20 mb-20" alt="fuck" />
-          <p className="text-[49px] font-display font-bold text-[#171A1F]">
-            <mark className="bg-[#F0F8FF] text-[#28D08A]">About</mark> Techty
+        <div className="flex flex-col md:flex-row items-center justify-center md:gap-40 bg-[#F0F8FF]">
+          <div>
+            <img src="/src/assets/Frame 1000008371 (1).png" className="rounded-lg mt-20 mb-20" alt="fuck" />
+            </div>
+        
+          <p className="text-[49px] font-display font-bold text-[#171A1F] text-center mb-6 md:mb-5 md:text-left">
+            <mark className="bg-[#F0F8FF] text-[#28D08A] ">About</mark> Techty
             <span className="block">
               <p className="text-[20px] font-display font-regular text-[#4E4E4E]">
                 We're constantly pushing the boundaries of what's
@@ -44,7 +47,7 @@ const About = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="flex items-center justify-center gap-10 mt-30 bg-[#FFFFFF]">
+        <div className="flex flex-col md:flex-row text-center md:text-left  items-center justify-center gap-10 md:mt-30 bg-[#FFFFFF]">
         <h4 className="font-display font-bold text-[#4E4E4E] text-[31px] mt-10">Message from <mark className="bg-[#FFFFFF] text-[#28D08A]">Founder</mark>
           <span><p className="font-display font-regular text-[#4E4E4E] text-[20px]">
           I would like to take a moment to express my sincere
@@ -84,28 +87,28 @@ const About = () => {
 <p className="font-display font-bold text-[49px] leading-tight">
 Our <mark className="bg-[#FFFFFF] text-[#28D08A]">team</mark> behind all <br />the success we have
 </p>
-<div className="flex items-center justify-center gap-10 mt-5 mb-5">
+<div className="grid grid-cols-2 md:flex items-center justify-center gap-10 mt-5 mb-5">
 <span>
   <img src="src/assets/Frame 1000008378.png" alt="fuck"/>
-  <p className="text-[25px] text-[#171A1F] font-bold font-display">Hyeon Vivek
+  <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">Hyeon Vivek
+    <span className="block text-[20px] font-regular font-display  text-[#4E4E4E]">Financial Consultant</span>
+  </p>
+</span>
+<span>
+  <img src="src/assets/Frame 1000008378 (1).png" alt="fuck"/>
+  <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">Hyeon Vivek
     <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">Financial Consultant</span>
   </p>
 </span>
 <span>
   <img src="src/assets/Frame 1000008378 (1).png" alt="fuck"/>
-  <p className="text-[25px] text-[#171A1F] font-bold font-display">Hyeon Vivek
+  <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">Hyeon Vivek
     <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">Financial Consultant</span>
   </p>
 </span>
 <span>
   <img src="src/assets/Frame 1000008378 (1).png" alt="fuck"/>
-  <p className="text-[25px] text-[#171A1F] font-bold font-display">Hyeon Vivek
-    <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">Financial Consultant</span>
-  </p>
-</span>
-<span>
-  <img src="src/assets/Frame 1000008378 (1).png" alt="fuck"/>
-  <p className="text-[25px] text-[#171A1F] font-bold font-display">Hyeon Vivek
+  <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">Hyeon Vivek
     <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">Financial Consultant</span>
   </p>
 </span>

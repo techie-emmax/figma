@@ -17,7 +17,7 @@ const Empower = () => {
         
         </h2>
       </div>
-      <div className="flex mt-15 ml-40 border-b-1 border-b-gray-300 mb-10 gap-2">
+      <div className="flex mt-15 ml-10 md:ml-40 border-b-1 border-b-gray-300 mb-10 gap-2">
         <div
           onClick={() => {
             setFirst(true), setSecond(false), setThird(false);
@@ -69,7 +69,7 @@ const Empower = () => {
   </div>
    <div>
         {first ? (
-        <div className="flex items-center ml-30 p-25 gap-30">
+        <div className="flex sm:flex-col md:flex-row items-center md:ml-30 p-25 gap-30">
         <div>
           <img src="/src/assets/Frame 29.png" alt="" />
         </div>
@@ -115,7 +115,7 @@ const Empower = () => {
           ""
         )}
   {second ? (
-         <div className="flex items-center ml-30 p-25 gap-30">
+         <div className="flex sm:flex-col md:flex-row items-center md:ml-30 p-25 gap-30">
          <div>
            <img src="/src/assets/img 1.png" alt="" />
          </div>
@@ -160,7 +160,7 @@ const Empower = () => {
           ""
         )}
 {third ? (
-   <div className="flex items-center ml-30 p-25 gap-30">
+   <div className="flex sm:flex-col md:flex-row  items-center md:ml-30 p-25 gap-30">
    <div>
      <img src="/src/assets/img 2.png" alt="" />
    </div>
