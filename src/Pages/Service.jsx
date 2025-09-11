@@ -41,21 +41,21 @@ const Service = () => {
 
   return (
     <div className="bg-[#F0F8FF]">
-      <div className="flex flex-col items-center justify-center pt-10">
+      <div className="flex flex-col items-center justify-center p-3 md:p-0 md:pt-10">
         <div className="flex flex-col justify-center items-center text-center">
-          <p className="text-[49px] text-[#171A1F] font-bold font-display">
-            We provide the best{" "}
-            <mark className="bg-[#F0F8FF] text-[#28D08A]">service</mark>{" "}
+          <p className="text-[49px] text-[#171A1F] font-bold font-display md:pl-0 md:pr-0 leading-tight">
+            We provide the best
+            <mark className="bg-[#F0F8FF] text-[#28D08A]"> service</mark>{" "}
             solutions.
           </p>
-          <p className="block text-[16px] text-[#4E4E4E] font-regular font-display mt-4">
+          <p className="block text-[16px] text-[#4E4E4E] font-regular font-display mt-4  md:pl-0 md:pr-0">
             We're constantly pushing the boundaries of what's possible and
             seeking new ways to <br />
             improve our services and help our clients achieve their goals.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center mt-10 gap-5">
+        <div className="flex flex-col md:flex-row justify-center mt-10 gap-5">
           {services.map((service, index) => (
             <div
               key={index}
@@ -87,17 +87,17 @@ const Service = () => {
         </div>
       </div>
       <Empower />
-      <div className="bg-[#F0F8FF] p-15">
+      <div className="bg-[#F0F8FF] pt-3 md:pt-0">
                
-        <p className="font-bold font-display text-[49px] text-center">
+        <p className="font-bold font-display text-[49px] text-center leading-none md:leading-tight md:pl-0 md:pr-0">
                     We have the best          
           <mark className="bg-[#F0F8FF] text-[#28D08A]"> pricing</mark> <br /> 
                   package for you        
         </p>
                
-        <div className="flex items-center justify-center gap-[30%] bg-[#FFFFFF] rounded-lg">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-[30%] md:bg-[#FFFFFF] rounded-lg mt-5 md:mt-0">
                    
-          <span className="bg-[#FFFFFF] mt-5">
+          <span className="bg-[#FFFFFF] md:mt-5 p-7 md:p-0">
                        
             <p className="font-display font-medium text-[39px]">
                             On Demand              
@@ -241,7 +241,7 @@ const Service = () => {
                  
           </span>
                  
-          <span className="bg-[#F0F8FF] px-5 ml-10 mr-10 mb-5 mt-5 rounded-lg">
+          <span className="bg-[#FFFFFF] md:bg-[#F0F8FF] px-5 ml-10 mr-10 mb-5 mt-5 rounded-lg">
                        
             <p className="mt-4 font-display font-bold text-[25px] text-center">
                             Quick Solution              
@@ -262,21 +262,23 @@ const Service = () => {
           </span>
                  
         </div>
-               
-        <div className="flex items-center justify-center mt-5 gap-[30%] bg-[#FFFFFF] rounded-lg">
-          <span className="">
+
+         <div className="flex flex-col md:flex-row items-center justify-center gap-[30%] md:bg-[#FFFFFF] rounded-lg mt-5 md:mt-0">
+                   
+          <span className="bg-[#FFFFFF] md:mt-5 p-7 md:p-0">
+                       
             <p className="font-display font-medium text-[39px]">
-                           Maintenance              
+                            On Demand              
               <span className="block font-display font-regular text-[16px] text-[#495460]">
                                 Get all these features when you are using as
                 starter.              
               </span>
                          
             </p>
-                 
+                       
             <div className="flex items-center justify-top gap-10 mt-5">
-                 
-              <div className="">
+                           
+              <div>
                 <span className="flex items-center gap-3">
                    
                   <svg
@@ -402,34 +404,34 @@ const Service = () => {
                 </span>
                                          
               </div>
-               
-            </div>{" "}
+                       
+            </div>
                  
           </span>
-               
-          <span className="bg-[#F0F8FF] px-5 ml-10 mr-10 mb-5 mt-5 rounded-lg">
+                 
+          <span className="bg-[#FFFFFF] md:bg-[#F0F8FF] px-5 ml-10 mr-10 mb-5 mt-5 rounded-lg">
                        
-            <p className="mt-4 text-center font-display font-bold text-[25px]">
+            <p className="mt-4 font-display font-bold text-[25px] text-center">
                             Quick Solution              
               <span className="block font-display text-[61px] font-bold text-[#495460]">
-                                $99
+                                $20
                 <sub className="text-[20px] font-bold text-[#495460]">
                   /hour
                 </sub>
                              
               </span>
-                       
+                         
             </p>
-                       
+                     
             <button className="border border-[#28D08A] font-display font-bold bg-[#28D08A] hover:bg-[#000000] pt-[16px] pb-[16px] pl-[60px] pr-[60px] rounded-lg p-2 m-4 text-[16px] text-white">
               Hire an Expert
             </button>
                    
           </span>
-                     
+                 
         </div>
                
-      </div>
+             </div>
            
     </div>
   );

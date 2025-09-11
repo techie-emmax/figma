@@ -15,14 +15,14 @@ const Contact = () => {
           </span>
         </p>
       </div>
-      <div className="flex sm:flex-col md:flex-row items-top justify-center sm:text-center md:text-left md:mt-10 md:mb-5 sm:gap-20 md:gap-47">
-        <div className="">
-          <p className="font-display font-bold text-[25px]">
+      <div className="flex flex-col md:flex-row items-top justify-center sm:text-center md:text-left md:mt-10 md:mb-5 sm:gap-20 md:gap-47">
+        <div className="pb-7 md:p-0">
+          <p className="font-display font-bold text-[25px] text-center md:text-start">
             we are happy to discuss your project
             <br />
             and answer any question
           </p>
-          <div className="flex items-center gap-15 mt-10 sm:px-15 md:px-0">
+          <div className="flex items-center gap-15 mt-10 px-5 md:px-0">
             <div>
               <span className="flex items-center gap-4">
                 <svg
@@ -76,7 +76,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="flex mt-5 gap-25 sm:px-15 md:px-0">
+          <div className="flex mt-5 gap-23 md:gap-25 px-5 md:px-0">
             <div>
               <span className="flex items-center gap-4">
                 <svg
@@ -132,8 +132,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-
-        <div className="sm:bg-[#FFFFFF] md:bg-[#FFFFFF] pt-5 pl-5 pb-5 pr-5 border md:border-0 rounded-lg">
+<div className="p-5 md:p-0">      <div className="bg-[#FFFFFF] pt-5 pl-5 pb-5 pr-5 border border-white md:border-0 rounded-lg">
           <p className="font-display font-medium text-[31px]">
             Send us Message
             <span className="block font-display font-regular text-[16px] text-[#6F7681] mt-5">
@@ -142,20 +141,20 @@ const Contact = () => {
               within 24 hours.
             </span>
           </p>
-          <div className="flex mt-5 items-center justify-center gap-4">
+          <div className="flex flex-col md:flex-row mt-5 items-center  gap-2 md:gap-4">
             <input
               type="text"
               name=""
               id=""
               placeholder="Name"
-              className="pl-3 pt-2 pb-2 pr-5 rounded-lg  font-display text-[#6F7681] bg-[#F1F1F1]"
+              className=" pl-3 pt-2 pr-45 pb-2 md:pr-5 outline-none rounded-lg  font-display text-[#6F7681] bg-[#F1F1F1]"
             />
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email"
-              className="pl-3 pt-2 pb-2 pr-5 rounded-lg font-display text-[#6F7681] bg-[#F1F1F1]"
+              className="pl-3 pt-2 pb-2 pr-45 md:pr-5  rounded-lg font-display text-[#6F7681] bg-[#F1F1F1]"
             />
           </div>
           <input
@@ -163,14 +162,16 @@ const Contact = () => {
             name=""
             placeholder="Message"
             id=""
-            className="mt-5 pt-2 pl-2 pr-68 pb-40 rounded-lg  bg-[#F1F1F1]  font-display"
+            className="mt-5 pt-2 pl-2 pr-50 md:pr-68 pb-40 rounded-lg  bg-[#F1F1F1]  font-display"
           />
           <span className="block">
-            <button className="border border-[#28D08A] rounded-lg pr-46 pl-46 pt-4 pb-4 mt-3 font-display bg-[#28D08A] font-bold text-[#FFFFFF]">
+            <button className="border border-[#28D08A] rounded-lg pr-38 md:pr-46 pl-38 md:pl-46 pt-4 pb-4 mt-3 font-display bg-[#28D08A] font-bold text-[#FFFFFF]">
               Send Message
             </button>
           </span>
         </div>
+        </div>
+  
       </div>
     </div>
   );

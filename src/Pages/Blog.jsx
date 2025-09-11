@@ -38,7 +38,7 @@ const Blog = () => {
           services.
         </span>
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 grid-rows-3 md:grid-rows-2 items-center justify-center mt-10 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 grid-rows-3 md:grid-rows-2 px-3 md:px-0 items-center justify-center mt-10 gap-4">
         <span className="flex flex-col items-center justify-center">
           <img src="src/assets/Frame 1000008215.png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
