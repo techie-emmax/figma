@@ -8,9 +8,9 @@ const Contact = () => {
       <div className="flex flex-col items-center justify-center">
         <p className="mt-10 font-bold font-display text-[49px] text-center">
           Contact Us
-          <span className="block text-[20px] text-[#6F7681] font-regular font-display">
-            We're constantly pushing the boundaries of what's <br />
-            possible and seeking new ways to improve our <br />
+          <span className="block text-[20px] text-[#6F7681] font-regular font-display p-3 md:p-0">
+            We're constantly pushing the boundaries of what's <br className="hidden md:block"/>
+            possible and seeking new ways to improve our <br className="hidden md:block"/>
             services.
           </span>
         </p>

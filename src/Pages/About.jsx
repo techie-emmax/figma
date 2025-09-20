@@ -13,36 +13,35 @@ const About = () => {
             />
           </div>
 
-          <p className="text-[49px] font-display font-bold text-[#171A1F] text-center mb-6 md:mb-5 md:text-left">
+          <p className="text-[49px] font-display font-bold text-[#171A1F] text-center mb-6 md:mb-5 md:text-left p-3 md:p-0">
             <mark className="bg-[#F0F8FF] text-[#28D08A] ">About</mark> Techty
             <span className="block">
-              <p className="text-[20px] font-display font-regular text-[#4E4E4E]">
+              <p className="text-[20px] font-display font-regular text-[#4E4E4E] ">
                 We're constantly pushing the boundaries of what's
-                <br />
+                <br className="hidden md:block"/><mark className="bg-[#F0F8FF]"> </mark>
                 possible and seeking new ways to improve our services
-                <br /> and help our clients achieve their goals.
+                <br className="hidden md:block"/> and help our clients achieve their goals.
               </p>
             </span>
-            <h4 className="font-display font-bold text-[31px] text-[#171A1F]">
+            <h4 className="font-display font-bold text-[31px] text-[#171A1F] p-3 md:p-0">
               Vison
               <span className="block">
                 <h6 className="text-[20px] text-display text-regular text-[#4E4E4E]">
                   Our vision is to create a better financial future for
-                  <br /> everyone. We believe that everyone deserves access to
-                  <br />
-                  financial services and resources that empower them to
-                  <br />
+                  <br className="hidden md:block"/> everyone. We believe that everyone deserves access to<mark className="bg-[#F0F8FF]"> </mark>
+                  <br className="hidden md:block"/>financial services and resources that empower them to
+                  <br className="hidden md:block"/>
                   achieve their goals.
                 </h6>
               </span>
             </h4>
-            <h4 className="font-display font-bold text-[31px] text-[#171A1F]">
+            <h4 className="font-display font-bold text-[31px] text-[#171A1F] p-3 md:0">
               Mission
               <span className="block">
                 <h6 className="text-[20px] text-display text-regular text-[#4E4E4E]">
-                  We're on a mission to empower people to take control of <br />
-                  their finances and achieve their goals. We believe that <br />
-                  everyone should have access to the tools and resources <br />
+                  We're on a mission to empower people to take control of <br className="hidden md:block"/>
+                  their finances and achieve their goals. We believe that <br className="hidden md:block"/>
+                  everyone should have access to the tools and resources <br className="hidden md:block"/>
                   they have and make smart financial decisions.
                 </h6>
               </span>
@@ -56,32 +55,32 @@ const About = () => {
             Message from{" "}
             <mark className="bg-[#FFFFFF] text-[#28D08A]">Founder</mark>
             <span>
-              <p className="font-display font-regular text-[#4E4E4E] text-[20px]">
+              <p className="font-display font-regular text-[#4E4E4E] text-[20px] w-110">
                 I would like to take a moment to express my sincere
-                <br />
-                gratitude for choosing our IT services. As the founder of
-                <br />
-                this company, I am proud to say that we are committed to
-                <br />
+                <br className="hidden md:block"/>
+                gratitude for choosing our IT services. As the founder of<mark className="md:hidden bg-[#F0F8FF]"> </mark>
+                <br className="hidden md:block"/>
+                this company, I am proud to say that we are committed to<mark className="md:hidden bg-[#F0F8FF]"> </mark>
+                <br className="hidden md:block"/>
                 providing the best possible solutions for your business needs.
                 <br />
-                <br />
-                We understand the challenges that come with managing
-                <br />
+                <br/>
+                We understand the challenges that come with managing<mark className="md:hidden bg-[#F0F8FF]"> </mark>
+                <br className="hidden md:block"/>
                 an enterprise in the digital age, and we are dedicated to
-                <br /> delivering innovative and reliable IT services to help
-                you
-                <br />
+                <br className="hidden md:block"/> delivering innovative and reliable IT services to help
+                you<mark className="md:hidden bg-[#F0F8FF]"> </mark>
+                <br className="hidden md:block"/>
                 navigate these challenges with ease.
                 <br />
                 <br />
                 Our team of experts is constantly working to improve our
-                <br />
-                services and stay up-to-date with the latest
-                <br />
-                technological advancements. We strive to provide <br />
-                personalized solutions that cater to your specific <br />
-                requirements, ensuring that your business operations run <br />
+                <br className="hidden md:block"/>
+                services and stay up-to-date with the latest<mark className="md:hidden bg-[#F0F8FF]"> </mark>
+                <br className="hidden md:block"/>
+                technological advancements. We strive to provide <br className="hidden md:block"/>
+                personalized solutions that cater to your specific <br className="hidden md:block"/>
+                requirements, ensuring that your business operations run <br className="hidden md:block"/>
                 smoothly and efficiently.
               </p>
             </span>
@@ -108,7 +107,7 @@ const About = () => {
           the success we have
         </p>
         <div className="grid grid-cols-2 md:flex items-center justify-center gap-10 mt-5 mb-5 px-5 md:px-0">
-          <span>
+          <span className="hover:scale-110">
             <img src="src/assets/Frame 1000008378.png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
@@ -117,7 +116,7 @@ const About = () => {
               </span>
             </p>
           </span>
-          <span>
+          <span className="hover:scale-110">
             <img src="src/assets/Frame 1000008378 (1).png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
@@ -126,7 +125,7 @@ const About = () => {
               </span>
             </p>
           </span>
-          <span>
+          <span className="hover:scale-110">
             <img src="src/assets/Frame 1000008378 (1).png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
@@ -135,7 +134,7 @@ const About = () => {
               </span>
             </p>
           </span>
-          <span>
+          <span className="hover:scale-110">
             <img src="src/assets/Frame 1000008378 (1).png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek

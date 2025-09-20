@@ -1,11 +1,16 @@
 import React from 'react'
 import { NavLink,Link } from 'react-router-dom'
+
+
 const Footer = () => {
+
+ 
+
   return (
     <div className='bg-[#495460] w-full '>
     <div className='flex flex-col md:flex-row jusify-between items-start gap-[20%] md:gap-[40%] bg-[#495460] ml-5 md:ml-20 mt-5 md:mt-20 '>
         <h2 className='font-display font-bold text-[#FFFFFF] text-[49px] leading-tight'>Ready to take your business<br />to the next level</h2>
-<button className='border border-[#28D08A] font-display bg-[#28D08A] hover:border-[#000000] hover:bg-[#000000] pt-[16px] pb-[16px] pl-[15px] md:pl-[15px] pr-[15px] rounded-lg md:p-2 md:m-4 text-white' >Request a Free Demo</button>
+<button className='border border-[#28D08A] font-display bg-[#28D08A] hover:border-[#000000] hover:bg-[#000000] mt-5 md::mt-0 pt-[16px] pb-[16px] pl-[15px] md:pl-[15px] pr-[15px] rounded-lg md:p-2 md:m-4 text-white' >Request a Free Demo</button>
     </div>
     <center> <hr className='text-[#F0F8FF] w-[91%] mt-10'/></center>
    
@@ -17,7 +22,7 @@ const Footer = () => {
         <img src="/src/assets/Vector (1).png" alt="" />
         <img src="/src/assets/instagram-line.png" alt="" />
         <img src="/src/assets/Vector.png" alt="" /></span>
-        <p className='mt-3 font-regular font-display text-sm md:text-[8px] text-[#FFFFFF]'>Copyright © 2025 Techty.<br/>
+        <p className='mt-3 font-regular font-display text-sm md:text-[8px] text-[#FFFFFF]'>Copyright © {new Date().getFullYear()} Techty.<br/>
         All Rights Reserved</p>
       </h5>
       </div>

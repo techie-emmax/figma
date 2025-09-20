@@ -6,7 +6,7 @@ const Navbar = () => {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  const navbarClasses = `flex items-center justify-center mt-4 mb-4 md:gap-20 w-full ${
+  const navbarClasses = `flex items-center justify-center mt-4 mb-4 md:gap-85 w-full ${
     currentPath === "/blog" || currentPath === "/contact"
       ? "bg-[#FFFFFF]"
       : "bg-transparent"
@@ -35,7 +35,7 @@ const Navbar = () => {
           <p className="font-display font-bold text-4xl">Techty</p>
         </div>
 
-        <div className="md:justify-between md:items-center gap-10 text-black hidden md:flex">
+        <div className="md:justify-between md:items-center gap-15 text-black hidden md:flex">
           <NavLink
             to="/"
             className="font-regular font-display hover:text-[#28D08A]"

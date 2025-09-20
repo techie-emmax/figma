@@ -6,9 +6,9 @@ const Blog = () => {
     <div className="flex flex-col items-center justify-center mt-10">
       <p className="font-bold font-display text-[49px] text-center">
         Our Blog
-        <span className="block text-[20px] text-[#6F7681] font-regular font-display">
-          We're constantly pushing the boundaries of what's <br />
-          possible and seeking new ways to improve our <br />
+        <span className="block text-[20px] text-[#6F7681] font-regular font-display p-3 md:p-0">
+          We're constantly pushing the boundaries of what's <br className="hidden md:block"/>
+          possible and seeking new ways to improve our <br className="hidden md:block"/>
           services.
         </span>
       </p>
@@ -18,11 +18,11 @@ const Blog = () => {
         <p className="font-regular font-display text-[20px] pb-10 pl-9 md:pl-4 pr-10 md:pr-4 mt-7">
           May 30, 2023
           <span className="block font-semibold font-display text-[49px] leading-tight mt-10">
-            5 reasons why Techty <br />
-            is the go-to choice for <br />
+            5 reasons why Techty <br className="hidden md:block"/>
+            is the go-to choice for <br className="hidden md:block"/>
             small business.
           </span>
-          <span className="block mt-10">Let us manage your IT for you so that you can get back <br />
+          <span className="block mt-10">Let us manage your IT for you so that you can get back <br className="hidden md:block"/>
           to doing what you do best.</span>
         </p>
         </span>
@@ -33,8 +33,8 @@ const Blog = () => {
     <p className="font-bold font-display text-[49px] text-center">
         Read all Article
         <span className="block text-[20px] text-[#6F7681] font-regular font-display">
-          We're constantly pushing the boundaries of what's <br />
-          possible and seeking new ways to improve our <br />
+          We're constantly pushing the boundaries of what's <br className="hidden md:block"/>
+          possible and seeking new ways to improve our <br className="hidden md:block"/>
           services.
         </span>
       </p>
@@ -44,10 +44,10 @@ const Blog = () => {
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
-            is the go- <br />to choice for 
+            is the go- <br className="hidden md:block"/>to choice for 
             small business.
           </span>
-          Let us manage your IT for you so that you <br />can get back
+          Let us manage your IT for you so that you <br className="hidden md:block"/>can get back
           to doing what you do best.
         </p>
         </span>
@@ -56,10 +56,10 @@ const Blog = () => {
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
-            is the go- <br />to choice for 
+            is the go- <br className="hidden md:block"/>to choice for 
             small business.
           </span>
-          Let us manage your IT for you so that you <br />can get back
+          Let us manage your IT for you so that you <br className="hidden md:block"/>can get back
           to doing what you do best.
         </p>
         </span>
@@ -68,10 +68,10 @@ const Blog = () => {
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
-            is the go- <br />to choice for 
+            is the go- <br className="hidden md:block"/>to choice for 
             small business.
           </span>
-          Let us manage your IT for you so that you <br />can get back
+          Let us manage your IT for you so that you <br className="hidden md:block"/>can get back
           to doing what you do best.
         </p>
         </span>
@@ -80,10 +80,10 @@ const Blog = () => {
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
-            is the go- <br />to choice for 
+            is the go- <br className="hidden md:block"/>to choice for 
             small business.
           </span>
-          Let us manage your IT for you so that you <br />can get back
+          Let us manage your IT for you so that you <br className="hidden md:block"/>can get back
           to doing what you do best.
         </p>
         </span>
@@ -95,7 +95,7 @@ const Blog = () => {
             is the go- <br />to choice for 
             small business.
           </span>
-          Let us manage your IT for you so that you <br />can get back
+          Let us manage your IT for you so that you <br className="hidden md:block "/>can get back
           to doing what you do best.
         </p>
         </span>
@@ -104,10 +104,10 @@ const Blog = () => {
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
-            is the go- <br />to choice for 
+            is the go- <br className="hidden md:block"/>to choice for 
             small business.
           </span>
-          Let us manage your IT for you so that you <br />can get back
+          Let us manage your IT for you so that you <br className="hidden md:block"/>can get back
           to doing what you do best.
         </p>
         </span>

@@ -5,15 +5,13 @@ const Baatc = () => {
     <div className="flex flex-col mt-10 mb-[#FFFFFF] bg-[#FFFFFF]">
       <div className="flex flex-col md:flex-row items-center justify-center md:ml-30 p-5 md:p-35 gap-5">
         <p className="text-[#171A1F] font-bold font-display text-[49px] leading-tight">
-          Our most priority is to
-          <br />
-          provide the effective
-          <br /> <mark className="bg-[#FFFFFF] text-[#28D08A]">solutions.</mark>
+          Our most priority is to <span className="hidden md:block"> </span>
+          provide the effective<br/> <mark className="bg-[#FFFFFF] text-[#28D08A]"> solutions.</mark>
           <span>
             <p className="text-[16px] text-[#000000] font-display font-regular mt-3">
               With a library full of thousands of templates to choose from, go
               idea to
-              <br /> launch in a matter of minutes. Try uploading your own for
+              <br className="hidden md:block"/> launch in a matter of minutes. Try uploading your own for
               sale.
             </p>
             <button className="border border-[#28D08A] pt-[16px] pb-[16px] pr-[10px] pl-[10px] bg-[#28D08A] text-[16px] rounded-lg text-[#FFFFFF]">
@@ -23,10 +21,10 @@ const Baatc = () => {
         </p>
         <img src="/src/assets/Frame 45.png" alt="" className="rounded-lg" />
       </div>
-      <div className="flex flex-col md:flex-row items-center bg-[#171A1F] p-5 md:p-0">
+      <div className="flex flex-col md:flex-row items-center bg-[#171A1F] m-2 md:m-0">
   <img src="/src/assets/Rectangle (1).png" className="" />
   <div className="flex flex-col items-center justify-center">
-    <p className="font-display font-bold text-[49px] mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
+    <p className="font-display font-bold text-[49px] ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
       Personalize your business<br/>
       <mark className="bg-[#171A1F] text-[#28D08A]"> strategy</mark> to
       reach out.
@@ -39,7 +37,7 @@ const Baatc = () => {
     </p>
    </span>
  </p>
-    <span className="flex mb-5 md:mb-0 items-center">
+    <span className="flex ml-4 md:ml-0 mb-5 md:mb-0 items-center">
       <img src="/src/assets/Frame 52.png" alt="fuck" />
       <img src="/src/assets/Frame 54.png" alt="fuck" />
     </span>
