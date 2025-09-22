@@ -50,12 +50,12 @@ const About = () => {
         </div>
       </div>
       <div className="w-full">
-        <div className="flex flex-col md:flex-row text-center md:text-left  items-center justify-center gap-10 md:mt-30 bg-[#FFFFFF]">
+        <div className="flex flex-col md:flex-row text-center md:text-left items-center justify-center gap-10 md:mt-30 bg-[#FFFFFF]">
           <h4 className="font-display font-bold text-[#4E4E4E] text-[31px] mt-10">
             Message from{" "}
             <mark className="bg-[#FFFFFF] text-[#28D08A]">Founder</mark>
             <span>
-              <p className="font-display font-regular text-[#4E4E4E] text-[20px] w-110">
+              <p className="font-display font-regular text-[#4E4E4E] text-[20px] w-85 md:w-110">
                 I would like to take a moment to express my sincere
                 <br className="hidden md:block"/>
                 gratitude for choosing our IT services. As the founder of<mark className="md:hidden bg-[#F0F8FF]"> </mark>
@@ -101,7 +101,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center bg-[#FFFFFF]">
-        <p className="font-display font-bold text-[49px] leading-tight text-center md:text-start">
+        <p className="font-display font-bold text-[30px] md:text-[49px] leading-tight text-center md:text-start">
           Our <mark className="bg-[#FFFFFF] text-[#28D08A]">team</mark> behind
           all <br />
           the success we have

@@ -4,7 +4,7 @@ const Baatc = () => {
   return (
     <div className="flex flex-col mt-10 mb-[#FFFFFF] bg-[#FFFFFF]">
       <div className="flex flex-col md:flex-row items-center justify-center md:ml-30 p-5 md:p-35 gap-5">
-        <p className="text-[#171A1F] font-bold font-display text-[49px] leading-tight">
+        <p className="text-[#171A1F] font-bold font-display text-[30px] md:text-[49px] leading-tight">
           Our most priority is to <span className="hidden md:block"> </span>
           provide the effective<br/> <mark className="bg-[#FFFFFF] text-[#28D08A]"> solutions.</mark>
           <span>

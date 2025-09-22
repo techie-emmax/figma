@@ -24,15 +24,15 @@ const Navbar = () => {
   const [menubutton, setMenubutton] = useState(false);
 
   return (
-    <div className="flex items-center justify-center gap-55 md:gap-20">
+    <div className="flex items-center justify-center gap-35 md:gap-20">
       <div className={navbarClasses}>
         <div className="flex items-center">
           <img
             src="src/assets/svg-662123605_1698@2x.png"
             alt="logo"
-            className="w-[60px] h-[60px]"
+            className="md:w-[60px] h-[40px] md:h-[60px]"
           />
-          <p className="font-display font-bold text-4xl">Techty</p>
+          <p className="font-display font-bold text-xl md:text-4xl">Techty</p>
         </div>
 
         <div className="md:justify-between md:items-center gap-15 text-black hidden md:flex">

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="bg-[#F1F1F1] w-full">
       <div className="flex flex-col items-center justify-center">
-        <p className="mt-10 font-bold font-display text-[49px] text-center">
+        <p className="mt-10 font-bold font-display text-[30px] md:text-[49px] text-center">
           Contact Us
           <span className="block text-[20px] text-[#6F7681] font-regular font-display p-3 md:p-0">
             We're constantly pushing the boundaries of what's <br className="hidden md:block"/>
@@ -44,7 +44,7 @@ const Contact = () => {
                   Toll Number
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] mr-17 sm:mt-2 md:mt-0 text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] mr-5 mt-2 md:mt-0 text-[#6F7681]">
                 +234 801 272 3390
               </p>
             </div>
@@ -126,7 +126,7 @@ const Contact = () => {
                   Office Address
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] sm:mt-2 md:mt-0 sm:pr-17 md:pr-0 text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] mt-2 md:mt-0 sm:pr-17 md:pr-0 text-[#6F7681]">
                 Ikoyi, Lagos.
               </p>
             </div>
@@ -147,14 +147,14 @@ const Contact = () => {
               name=""
               id=""
               placeholder="Name"
-              className=" pl-3 pt-2 pr-45 pb-2 md:pr-5 outline-none rounded-lg  font-display text-[#6F7681] bg-[#F1F1F1]"
+              className=" pl-2 pt-2 pr-30 md:pr-45 pb-2 md:pr-5 outline-none rounded-lg  font-display text-[#6F7681] bg-[#F1F1F1]"
             />
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email"
-              className="pl-3 pt-2 pb-2 pr-45 md:pr-5  rounded-lg font-display text-[#6F7681] bg-[#F1F1F1]"
+              className="pl-2 pt-2 pb-2 pr-30 md:pr-45 md:pr-5  rounded-lg font-display text-[#6F7681] bg-[#F1F1F1]"
             />
           </div>
           <input
@@ -162,10 +162,10 @@ const Contact = () => {
             name=""
             placeholder="Message"
             id=""
-            className="mt-5 pt-2 pl-2 pr-50 md:pr-68 pb-40 rounded-lg  bg-[#F1F1F1]  font-display"
+            className="mt-5 pt-2 pl-2 pr-30 md:pr-68 pb-40 rounded-lg  bg-[#F1F1F1]  font-display"
           />
           <span className="block">
-            <button className="border border-[#28D08A] rounded-lg pr-38 md:pr-46 pl-38 md:pl-46 pt-4 pb-4 mt-3 font-display bg-[#28D08A] font-bold text-[#FFFFFF]">
+            <button className="border border-[#28D08A] rounded-lg pr-34 md:pr-46 pl-38 md:pl-46 pt-4 pb-4 mt-3 font-display bg-[#28D08A] font-bold text-[#FFFFFF]">
               Send Message
             </button>
           </span>

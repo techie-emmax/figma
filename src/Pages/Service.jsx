@@ -43,7 +43,7 @@ const Service = () => {
     <div className="bg-[#F0F8FF]">
       <div className="flex flex-col items-center justify-center p-3 md:p-0 md:pt-10">
         <div className="flex flex-col justify-center items-center text-center">
-          <p className="text-[49px] text-[#171A1F] font-bold font-display md:pl-0 md:pr-0 leading-tight">
+          <p className="text-[30px] md:text-[49px] text-[#171A1F] font-bold font-display md:pl-0 md:pr-0 leading-tight">
             We provide the best
             <mark className="bg-[#F0F8FF] text-[#28D08A]"> service</mark>{" "}
             solutions.
@@ -89,7 +89,7 @@ const Service = () => {
       <Empower />
       <div className="bg-[#F0F8FF] pt-3 md:pt-0">
                
-        <p className="font-bold font-display text-[49px] text-center leading-none md:leading-tight md:pl-0 md:pr-0">
+        <p className="font-bold font-display text-[30px] md:text-[49px] text-center leading-none md:leading-tight md:pl-0 md:pr-0">
                     We have the best          
           <mark className="bg-[#F0F8FF] text-[#28D08A]"> pricing</mark> <br /> 
                   package for you        

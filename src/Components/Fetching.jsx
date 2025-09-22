@@ -19,7 +19,7 @@ const Fetching = () => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-[#FFFFFF] p-2 md:p-0">
-      <p className="font-bold font-display text-[#171A1F] text-[49px] mt-10 text-center leading-tight">
+      <p className="font-bold font-display text-[#171A1F] text-[30px] md:text-[49px] mt-10 text-center leading-tight">
         Read what the{" "}
         <mark className="bg-[#FFFFFF] text-[#28D08A]">customers</mark> <br />
         are saying about us.
