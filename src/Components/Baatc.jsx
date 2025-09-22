@@ -1,4 +1,8 @@
 import React from "react";
+import Frame45 from "../assets/Frame 45.png";
+import Rectangle1 from "../assets/Rectangle (1).png";
+import Frame52 from "../assets/Frame 52.png";
+import Frame54 from "../assets/Frame 54.png";
 
 const Baatc = () => {
   return (
@@ -19,31 +23,31 @@ const Baatc = () => {
             </button>
           </span>
         </p>
-        <img src="/src/assets/Frame 45.png" alt="" className="rounded-lg" />
+        <img src={Frame45} alt="" className="rounded-lg" />
       </div>
       <div className="flex flex-col md:flex-row items-center bg-[#171A1F] m-2 md:m-0">
-  <img src="/src/assets/Rectangle (1).png" className="" />
-  <div className="flex flex-col items-center justify-center">
-    <p className="font-display font-bold text-[49px] ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
-      Personalize your business<br/>
-      <mark className="bg-[#171A1F] text-[#28D08A]"> strategy</mark> to
-      reach out.
-   <span className="mt-5">
-   <p className="font-display font-regular text-[20px] text-[#FFFFFF]">
-      Our advisors approach each client individually, so each time we
-      <br />
-      select the appropriate insurance for your needs. Thanks to <br />
-      conversation, we will adjust the appropriate cover.
-    </p>
-   </span>
- </p>
-    <span className="flex ml-4 md:ml-0 mb-5 md:mb-0 items-center">
-      <img src="/src/assets/Frame 52.png" alt="fuck" />
-      <img src="/src/assets/Frame 54.png" alt="fuck" />
-    </span>
-  </div>
-</div>
-</div>
+        <img src={Rectangle1} className="" />
+        <div className="flex flex-col items-center justify-center">
+          <p className="font-display font-bold text-[49px] ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
+            Personalize your business<br/>
+            <mark className="bg-[#171A1F] text-[#28D08A]"> strategy</mark> to
+            reach out.
+           <span className="mt-5">
+           <p className="font-display font-regular text-[20px] text-[#FFFFFF]">
+             Our advisors approach each client individually, so each time we
+             <br />
+             select the appropriate insurance for your needs. Thanks to <br />
+             conversation, we will adjust the appropriate cover.
+           </p>
+           </span>
+         </p>
+         <span className="flex ml-4 md:ml-0 mb-5 md:mb-0 items-center">
+           <img src={Frame52} alt="fuck" />
+           <img src={Frame54} alt="fuck" />
+         </span>
+       </div>
+      </div>
+    </div>
   );
 };
 

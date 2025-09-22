@@ -28,10 +28,10 @@ const Navbar = () => {
       <div className={navbarClasses}>
         <div className="flex items-center">
           <img
-            src="src/assets/svg-662123605_1698@2x.png"
-            alt="logo"
-            className="md:w-[60px] h-[40px] md:h-[60px]"
-          />
+  src="/assets/svg-662123605_1698@2x.png"
+  alt="logo"
+  className="md:w-[60px] h-[40px] md:h-[60px]"
+/>
           <p className="font-display font-bold text-xl md:text-4xl">Techty</p>
         </div>
 
