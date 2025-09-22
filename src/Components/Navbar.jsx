@@ -24,7 +24,7 @@ const Navbar = () => {
   const [menubutton, setMenubutton] = useState(false);
 
   return (
-    <div className="flex items-center justify-center gap-66 md:gap-20">
+    <div className="flex items-center justify-center gap-55 md:gap-20">
       <div className={navbarClasses}>
         <div className="flex items-center">
           <img
