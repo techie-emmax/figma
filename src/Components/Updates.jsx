@@ -3,7 +3,7 @@ import React from "react";
 const Updates = () => {
   return (
     <div className="bg-[] mt-5 md:mt-10 ">
-      <h2 className="font-display font-bold text-[30px] md:text-[49px] text-center leading-13">
+      <h2 className="font-display font-bold text-[35px] md:text-[49px] text-center leading-13">
         Here’s our latest <br />
         updates from the
         <mark className="bg-[#ffffff] text-green-400"> news</mark>

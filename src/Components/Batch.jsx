@@ -5,7 +5,7 @@ const Batch = () => {
   return (
     <div className="bg-[#F0F8FF] w-full">
       <div className="flex md:flex-row flex-col items-center justify-between gap-38 ">
-        <div className="font-display font-bold text-[30px] md:text-[61px] leading-none cursor mt-10 md:mt-20 ml-6 md:ml-50">
+        <div className="font-display font-bold text-[35px] md:text-[61px] leading-none cursor mt-10 md:mt-20 ml-6 md:ml-50">
           <p className="text-left md:text-left">
             Secure <mark className="bg-[#F0F8FF] text-green-400">business</mark>
             <br />
