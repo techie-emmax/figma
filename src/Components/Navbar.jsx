@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className={navbarClasses}>
         <div className="flex items-center">
           <img
-  src="/public/svg-662123605_1698@2x.png"
+  src="/Logo.png"
   alt="logo"
   className="md:w-[60px] h-[40px] md:h-[60px]"
 />
