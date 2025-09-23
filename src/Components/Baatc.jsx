@@ -28,7 +28,7 @@ const Baatc = () => {
       <div className="flex flex-col md:flex-row items-center bg-[#171A1F] m-2 md:m-0">
         <img src={Rectangle1} className="" />
         <div className="flex flex-col items-center justify-center">
-          <p className="font-display font-bold text-[49px] ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
+          <p className="font-display font-bold text text-[49px] ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
             Personalize your business<br/>
             <mark className="bg-[#171A1F] text-[#28D08A]"> strategy</mark> to
             reach out.
