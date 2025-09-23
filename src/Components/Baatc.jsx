@@ -1,8 +1,8 @@
 import React from "react";
-import Frame45 from "../assets/Frame 45.png";
-import Rectangle1 from "../assets/Rectangle (1).png";
-import Frame52 from "../assets/Frame 52.png";
-import Frame54 from "../assets/Frame 54.png";
+import Frame45 from "../Frame 45.png";
+import Rectangle1 from "../Rectangle (1).png";
+import Frame52 from "../Frame 52.png";
+import Frame54 from "../Frame 54.png";
 
 const Baatc = () => {
   return (
