@@ -28,11 +28,11 @@ const Batch = () => {
         </div>
         <div className="-mt-16 md:mt-20 px-5 md:px-0 md:mr-40">
           <img
-            src="/src/assets/Frame 14.png"
+            src="/Frame 14.png"
             alt="fuck"
             className=" border border-[#FFFFFF] rounded-[20px]"
           />
-          <img src="src/assets/Frame 17.png"className="mt-5 mb-10" />
+          <img src="/Frame 17.png"className="mt-5 mb-10" />
         </div>
       </div>
       <center>
@@ -45,20 +45,20 @@ const Batch = () => {
 
         <Marquee scrollamount="50" className="ml-3 md:ml-20 mr-2 md:mr-40">
           <span className="block">
-            <img src="/src/assets/Logo.png" alt="" className="w-[100%]"/>
+            <img src="/Logo.png" alt="" className="md:w-[50%]"/>
           </span>
           <span className="block ml-15">
-            <img src="/src/assets/Logo (1).png" alt="" className="w-[100%]"/>
+            <img src="/Logo (1).png" alt="" className="md:w-[50%]"/>
           </span>
           <span className="block ml-15">
             
-            <img src="/src/assets/Logo (2).png" alt="" className="w-[100%]"/>
+            <img src="/Logo (2).png" alt="" className="md:w-[50%]"/>
           </span>
           <span className="block ml-15">
-            <img src="/src/assets/Logo (3).png" alt="" className="w-[100%]"/>
+            <img src="/Logo (3).png" alt="" className="md:w-[50%]"/>
           </span>
           <span className="block ml-15">
-            <img src="/src/assets/img done by me.png" alt="" className="w-[100%]"/>
+            <img src="/img done by me.png" alt="" className="md:w-[50%]"/>
           </span>
         </Marquee>
       </div>
