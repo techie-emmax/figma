@@ -28,9 +28,9 @@ const Navbar = () => {
       <div className={navbarClasses}>
         <div className="flex items-center">
           <img
-  src="/Logo.png"
+  src="/svg-662123605_1698@2x.png"
   alt="logo"
-  className="md:w-[60px] h-[40px] md:h-[60px]"
+  className=""
 />
           <p className="font-display font-bold text-3xl md:text-4xl">Techty</p>
         </div>
