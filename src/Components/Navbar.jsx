@@ -30,7 +30,7 @@ const Navbar = () => {
           <img
   src="/svg-662123605_1698@2x.png"
   alt="logo"
-  className=""
+  className="w-[30%]"
 />
           <p className="font-display font-bold text-3xl md:text-4xl">Techty</p>
         </div>

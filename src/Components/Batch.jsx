@@ -36,7 +36,7 @@ const Batch = () => {
         </div>
       </div>
       <center>
-        <hr className="w-[480px] md:w-[1500px] mt-10" />
+        <hr className="w-full mt-10" />
       </center>
       <div className="flex items-center justify-center pl-10  md:pl-50  mt-10 gap-10 md:gap-20">
           <p className="font-display text-[26px] mb-2 md:mb-0 font-medium text-[#171A1F] leading-tight">
