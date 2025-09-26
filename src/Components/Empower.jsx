@@ -98,7 +98,7 @@ const Empower = () => {
         {first ? (
           <div className="flex flex-col md:flex-row items-center md:ml-30 p-5 md:p-25 gap-10 md:gap-30">
             <div className="">
-              <img src="/src/assets/Frame 29.png" alt="" />
+              <img src="Frame 29.png" alt="" />
             </div>
             <p className="text-[25px] font-display font-medium ">
               Data Analysis
@@ -113,19 +113,19 @@ const Empower = () => {
               </span>
               <span className="m-4">
                 <span className="flex items-center gap-5 hover:scale-110">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png"/>
                   <p className="text-[20px] font-display font-regular">
                     We collect ideas from different design inspirations,
                   </p>
                 </span>
                 <span className="flex items-center mt-2 gap-5 hover:scale-110">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="checkbox-circle-line.png"/>
                   <p className="text-[20px] font-display font-regular">
                     Analysis data for any kind of corrections.
                   </p>
                 </span>
                 <span className="flex items-center mt-2 gap-5 hover:scale-110">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     Finalize the product for the production to be done.
                   </p>
@@ -142,7 +142,7 @@ const Empower = () => {
         {second ? (
           <div className="flex flex-col md:flex-row items-center md:ml-30 p-5 md:p-25 gap-10 md:gap-30">
             <div className="">
-              <img src="/src/assets/img 1.png" alt="" />
+              <img src="/img 1.png" alt="" />
             </div>
             <p className="text-[25px] font-display font-medium">
               Data Analysis
@@ -157,19 +157,19 @@ const Empower = () => {
               </span>
               <span className="m-4">
                 <span className="flex items-center gap-5">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     We collect ideas from different design inspirations,
                   </p>
                 </span>
                 <span className="flex items-center mt-2 gap-5">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     Analysis data for any kind of corrections.
                   </p>
                 </span>
                 <span className="flex items-center mt-2 gap-5">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     Finalize the product for the production to be done.
                   </p>
@@ -186,7 +186,7 @@ const Empower = () => {
         {third ? (
           <div className="flex flex-col md:flex-row items-center md:ml-30 p-5 md:p-25 gap-10 md:gap-30">
             <div className="">
-              <img src="/src/assets/img 2.png" alt="" />
+              <img src="/img 2.png" alt="" />
             </div>
             <p className="text-[25px] font-display font-medium">
               Data Analysis
@@ -201,19 +201,19 @@ const Empower = () => {
               </span>
               <span className="m-4">
                 <span className="flex items-center gap-5">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     We collect ideas from different design inspirations,
                   </p>
                 </span>
                 <span className="flex items-center mt-2 gap-5">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     Analysis data for any kind of corrections.
                   </p>
                 </span>
                 <span className="flex items-center mt-2 gap-5">
-                  <img src="/src/assets/checkbox-circle-line.png" />
+                  <img src="/checkbox-circle-line.png" />
                   <p className="text-[20px] font-display font-regular">
                     Finalize the product for the production to be done.
                   </p>

@@ -8,15 +8,15 @@ const Full = () => {
 </div>
 <div>
     <div className='flex flex-col md:flex-row gap-12'>
-    <span className='hover:scale-120 flex flex-col items-start'><img src='/src/assets/Frame.png' className='border border-[#FFFFFF] px-[4%] py-[4%] bg-[#FFFFFF] rounded-4xl'/>
+    <span className='hover:scale-120 flex flex-col items-start'><img src='/Frame.png' className='border border-[#FFFFFF] md:px-[4%] md:py-[4%] bg-[#FFFFFF] rounded-4xl'/>
     <p className='font-medium font-display text-[25px] text-[#171A1F] mt-3'> SEO Team  Expert
         <span className='block text-[16px] text-[#4E4E4E] font-regular font-display mt-3'>Creating products to meet our user<br/> needs and market demands.</span></p>
         </span>
-        <span className='hover:scale-120 flex flex-col items-start'><img src='/src/assets/Frame (1).png' className='border border-[#FFFFFF] px-[4%] py-[4%] bg-[#FFFFFF] rounded-4xl'/>
+        <span className='hover:scale-120 flex flex-col items-start'><img src='Frame (1).png' className='border border-[#FFFFFF] md:px-[4%] md:py-[4%] bg-[#FFFFFF] rounded-4xl'/>
     <p className='font-medium font-display text-[25px] text-[#171A1F] mt-3'>Strategic Planning
         <span className='block text-[16px] text-[#4E4E4E] font-regular font-display mt-3'>Improving products to meet our<br />user needs and market demands..</span></p>
         </span>
-        <span className='hover:scale-120 flex flex-col items-start'><img src='/src/assets/Frame (2).png' className='border border-[#FFFFFF] rounded-4xl px-[4%] py-[4%] bg-[#FFFFFF]'/>
+        <span className='hover:scale-120 flex flex-col items-start'><img src='/Frame (2).png' className='border border-[#FFFFFF] rounded-4xl md:px-[4%] md:py-[4%] bg-[#FFFFFF]'/>
     <p className='font-medium font-display text-[25px] text-[#171A1F] mt-3'> 24/7 Live Support
         <span className='block text-[16px] text-[#4E4E4E] font-regular font-display mt-3'>We are ready to help you all day and<br/> our customer service are active.</span></p>
         </span>

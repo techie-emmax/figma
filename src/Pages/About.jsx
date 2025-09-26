@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center justify-center md:gap-40 bg-[#F0F8FF]">
           <div>
             <img
-              src="/src/assets/Frame 1000008371 (1).png"
+              src="/Frame 1000008371 (1).png"
               className="rounded-lg mt-20 mb-20 px-5 md:px-0 "
               alt="fuck"
             />
@@ -94,7 +94,7 @@ const About = () => {
             </span>
           </h4>
           <img
-            src="/src/assets/Frame 1000008371.png"
+            src="/Frame 1000008371.png"
             alt="fuck"
             className="mt-10 mb-30 px-5 md:px-0"
           />
@@ -108,7 +108,7 @@ const About = () => {
         </p>
         <div className="grid grid-cols-2 md:flex items-center justify-center gap-10 mt-5 mb-5 px-5 md:px-0">
           <span className="hover:scale-110">
-            <img src="src/assets/Frame 1000008378.png" alt="fuck" />
+            <img src="/Frame 1000008378.png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
               <span className="block text-[20px] font-regular font-display  text-[#4E4E4E]">
@@ -117,7 +117,7 @@ const About = () => {
             </p>
           </span>
           <span className="hover:scale-110">
-            <img src="src/assets/Frame 1000008378 (1).png" alt="fuck" />
+            <img src="/Frame 1000008378 (1).png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
               <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">
@@ -126,7 +126,7 @@ const About = () => {
             </p>
           </span>
           <span className="hover:scale-110">
-            <img src="src/assets/Frame 1000008378 (1).png" alt="fuck" />
+            <img src="/Frame 1000008378 (1).png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
               <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">
@@ -135,7 +135,7 @@ const About = () => {
             </p>
           </span>
           <span className="hover:scale-110">
-            <img src="src/assets/Frame 1000008378 (1).png" alt="fuck" />
+            <img src="/Frame 1000008378 (1).png" alt="fuck" />
             <p className="text-[25px] text-[#171A1F] font-bold font-display text-center md:text-left">
               Hyeon Vivek
               <span className="block text-[20px] font-regular font-display text-[#4E4E4E]">

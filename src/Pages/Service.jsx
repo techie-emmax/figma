@@ -15,25 +15,25 @@ const Service = () => {
   const services = [
     {
       title: "Online Marketing",
-      image: "src/assets/Frame 1000008386.png",
+      image: "/Frame 1000008386.png",
       description:
         "In the new era of technology we look into the future with certainty and pride.",
     },
     {
       title: "Startup Business",
-      image: "src/assets/Frame 1000008386 (1).png",
+      image: "/Frame 1000008386 (1).png",
       description:
         "In the new era of technology we look into the future with certainty and pride.",
     },
     {
       title: "Business Growth",
-      image: "src/assets/Frame 1000008386 (2).png",
+      image: "/Frame 1000008386 (2).png",
       description:
         "In the new era of technology we look into the future with certainty and pride.",
     },
     {
       title: "Development",
-      image: "src/assets/Frame 1000008386 (3).png",
+      image: "/Frame 1000008386 (3).png",
       description:
         "In the new era of technology we look into the future with certainty and pride.",
     },
@@ -72,7 +72,7 @@ const Service = () => {
               </p>
               <div className="flex items-center">
                 <img
-                  src="src/assets/Frame (3).png"
+                  src="/Frame (3).png"
                   alt="contact icon"
                   className="mt-3 cursor-pointer"
                 />

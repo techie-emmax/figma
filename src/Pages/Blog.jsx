@@ -13,7 +13,7 @@ const Blog = () => {
         </span>
       </p>
       <span className="flex flex-col md:flex-row items-center justify-center m-10">
-        <img src="src/assets/Frame 1000008277.png" alt="" className=""/>
+        <img src="/Frame 1000008277.png" alt="" className=""/>
         <span className="bg-[#FFFFFF] -mt-5 ">
         <p className="font-regular font-display text-[20px] pb-10 pl-9 md:pl-4 pr-10 md:pr-4 mt-7">
           May 30, 2023
@@ -40,7 +40,7 @@ const Blog = () => {
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 grid-rows-3 md:grid-rows-2 px-3 md:px-0 items-center justify-center mt-10 gap-4">
         <span className="flex flex-col items-center justify-center">
-          <img src="src/assets/Frame 1000008215.png" alt="" />
+          <img src="/Frame 1000008215.png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
@@ -52,7 +52,7 @@ const Blog = () => {
         </p>
         </span>
         <span className="flex flex-col items-center justify-center">
-          <img src="src/assets/Frame 1000008215 (1).png" alt="" />
+          <img src="/Frame 1000008215 (1).png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
@@ -64,7 +64,7 @@ const Blog = () => {
         </p>
         </span>
            <span className="flex flex-col items-center justify-center">
-          <img src="src/assets/Frame 1000008215 (2).png" alt="" />
+          <img src="/Frame 1000008215 (2).png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
@@ -76,7 +76,7 @@ const Blog = () => {
         </p>
         </span>
         <span className="flex flex-col items-center justify-center">
-          <img src="src/assets/Frame 1000008215.png" alt="" />
+          <img src="/Frame 1000008215.png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
@@ -88,7 +88,7 @@ const Blog = () => {
         </p>
         </span>
         <span className="flex flex-col items-center justify-center">
-          <img src="src/assets/Frame 1000008215 (1).png" alt="" />
+          <img src="/Frame 1000008215 (1).png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty
@@ -100,7 +100,7 @@ const Blog = () => {
         </p>
         </span>
            <span className="flex flex-col items-center justify-center">
-          <img src="src/assets/Frame 1000008215 (2).png" alt="" />
+          <img src="/Frame 1000008215 (2).png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">May 30, 2023
           <span className="block font-semibold font-display text-[20px] leading-tight mt-10">
             5 reasons why Techty

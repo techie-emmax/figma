@@ -147,14 +147,14 @@ const Contact = () => {
               name=""
               id=""
               placeholder="Name"
-              className=" pl-2 pt-2 pr-30 md:pr-45 pb-2 md:pr-5 outline-none rounded-lg  font-display text-[#6F7681] bg-[#F1F1F1]"
+              className=" pl-2 pt-2 pr-30 pb-2 md:pr-5 outline-none rounded-lg  font-display text-[#6F7681] bg-[#F1F1F1]"
             />
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Email"
-              className="pl-2 pt-2 pb-2 pr-30 md:pr-45 md:pr-5  rounded-lg font-display text-[#6F7681] bg-[#F1F1F1]"
+              className="pl-2 pt-2 pb-2 pr-30 md:pr-45 rounded-lg font-display text-[#6F7681] bg-[#F1F1F1]"
             />
           </div>
           <input

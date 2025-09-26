@@ -30,9 +30,9 @@ const Batch = () => {
           <img
             src="/Frame 14.png"
             alt="fuck"
-            className=" border border-[#FFFFFF] rounded-[20px]"
+            className=" border border-[#FFFFFF] rounded-sm"
           />
-          <img src="/Frame 17.png"className="mt-5 mb-10" />
+          <img src="/Frame 17.png"className="md:mt-5 md:mb-10" />
         </div>
       </div>
       <center>
