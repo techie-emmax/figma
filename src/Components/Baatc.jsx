@@ -40,9 +40,9 @@ const Baatc = () => {
               </p>
             </span>
           </p>
-          <span className="flex ml-4 md:ml-0 mb-5 md:mb-0 items-center">
-            <img src="/Frame 52.png" alt="fuck" />
-            <img src="/Frame 54.png" alt="fuck" />
+          <span className="flex  md:ml-0 mb-5 md:mb-0 items-center">
+            <img src="/Frame 52.png" alt="fuck" className="w-[5%]"/>
+            <img src="/Frame 54.png" alt="fuck" className="w-[5%]"/>
           </span>
         </div>
       </div>

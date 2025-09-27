@@ -24,13 +24,13 @@ const Navbar = () => {
   const [menubutton, setMenubutton] = useState(false);
 
   return (
-    <div className="flex items-center justify-center gap-50 md:gap-20">
+    <div className="flex items-center justify-center gap-47 md:gap-20">
       <div className={navbarClasses}>
         <div className="flex items-center">
           <img
   src="/svg-662123605_1698@2x.png"
   alt="logo"
-  className="w-[30%]"
+  className="w-[40%]"
 />
           <p className="font-display font-bold text-3xl md:text-4xl">Techty</p>
         </div>

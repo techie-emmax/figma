@@ -9,7 +9,7 @@ const Updates = () => {
         <mark className="bg-[#ffffff] text-green-400"> news</mark>
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-center md:gap-7 mt-5 md:mt-10 md:mb-10">
-        <div className="flex flex-col items-center justify-center hover:scale-110">
+        <div className="flex flex-col items-center justify-center p-3 md:p-0 hover:scale-110">
           <img src="/Frame 1000008357.png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">
             May 30
@@ -23,7 +23,7 @@ const Updates = () => {
             </span>
           </p>
         </div>
-        <span className="flex mt-5 md:mt-0 flex-col items-center justify-center hover:scale-110">
+        <span className="flex p-3 md:p-0 mt-5 md:mt-0 flex-col items-center justify-center hover:scale-110">
           <img src="/Frame 1000008357 (1).png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">
             May 30
@@ -37,7 +37,7 @@ const Updates = () => {
             </span>
           </p>
         </span>
-        <span className="flex flex-col mt-5 md:mt-0 mb-7 md:mb-0 items-center justify-center hover:scale-110">
+        <span className="flex p-3 md:p-0 flex-col mt-5 md:mt-0 mb-7 md:mb-0 items-center justify-center hover:scale-110">
           <img src="/Frame 1000008357.png" alt="" />
           <p className="font-regular font-display text-[18px] py-2 px-5 text-[#6F7681] bg-[#FFFFFF]">
             May 30

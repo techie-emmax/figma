@@ -17,7 +17,7 @@ const Batch = () => {
               attractive and feature-complete Saas showcase.
             </p>
           </p>
-          <span className="flex items-center justify-center md:justify-start gap-[18px] mt-7">
+          <span className="flex items-center justify-center md:justify-start gap-[15px] mt-7">
             <button className="bg-[#28D08A] pt-[16px] pr-[10px] pb-[16px] pl-[10px] rounded-lg text-[16px] font-display font-bold hover:bg-[#171A1F] text-[#FFFFFF]">
               Request a Free Demo
             </button>
