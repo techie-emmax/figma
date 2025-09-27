@@ -15,7 +15,8 @@ const Footer = () => {
     <center> <hr className='text-[#F0F8FF] w-[91%] mt-10'/></center>
    
     <div className='flex flex-col md:flex-row items-start justify-top gap-[5%] md:gap-[20%] ml-10 md:ml-20 mt-15 '>
-      <div className='flex gap-5 items-center'><img src="/svg-662123605_1698@2x.png" alt="fuck" className="" />
+      <div className='flex gap-5 items-center'>
+        <img src="/svg-662123605_1698@2x.png" alt="fuck" className="w-[40%]" />
       <h5 className="font-display font-bold text-4xl w-[104px] h-[37px] text-[#FFFFFF]">Techty
       <span className='flex mt-5 md:mt-15 items-center gap-[4px]'>
         <img src="/src/assets/Vector (2).png" alt="" />

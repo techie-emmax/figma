@@ -17,7 +17,7 @@ const Batch = () => {
               attractive and feature-complete Saas showcase.
             </p>
           </p>
-          <span className="flex items-center justify-center md:justify-start gap-[15px] mt-7">
+          <span className="flex items-center justify-center md:justify-start p-2 md:p-0 gap-[15px] mt-7">
             <button className="bg-[#28D08A] pt-[16px] pr-[10px] pb-[16px] pl-[10px] rounded-lg text-[16px] font-display font-bold hover:bg-[#171A1F] text-[#FFFFFF]">
               Request a Free Demo
             </button>
@@ -45,20 +45,20 @@ const Batch = () => {
 
         <Marquee scrollamount="50" className="ml-3 md:ml-20 mr-2 md:mr-40">
           <span className="block">
-            <img src="/Logo.png" alt="" className="md:w-[50%]"/>
+            <img src="/Logo.png" alt=""/>
           </span>
           <span className="block ml-15">
-            <img src="/Logo (1).png" alt="" className="md:w-[50%]"/>
+            <img src="/Logo (1).png" alt=""/>
           </span>
           <span className="block ml-15">
             
-            <img src="/Logo (2).png" alt="" className="md:w-[50%]"/>
+            <img src="/Logo (2).png" alt=""/>
           </span>
           <span className="block ml-15">
-            <img src="/Logo (3).png" alt="" className="md:w-[50%]"/>
+            <img src="/Logo (3).png" alt="" />
           </span>
           <span className="block ml-15">
-            <img src="/img done by me.png" alt="" className="md:w-[50%]"/>
+            <img src="/img done by me.png" alt=""/>
           </span>
         </Marquee>
       </div>
