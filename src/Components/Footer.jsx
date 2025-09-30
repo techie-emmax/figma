@@ -49,9 +49,9 @@ const Footer = () => {
   <span className='flex-row md:flex-col gap-[16px] mt-7 block'>
     <p className='text-[20px] font-display font-medium text-[#FFFFFF]'>Subscribe to our newsletter to<br/>
     get our news delivered to you.</p>
-    <div className='flex items-center mt-5'>
-    <input type="email" placeholder='Email address' className='border input:font-display input:font-regular outline-none pt-[3px] pb-[3px] pl-[10px] pr-[15px] border-[#FFFFFF] rounded-md placeholder:text-[15px] placeholder:font-display  placeholder:pl-1 placeholder:font-regular'/>
-    <Link to="" className='pt-[3px] pb-[3px] pl-[10px] -ml-18 pr-[10px] text-[#FFFFFF] font-display font-regular rounded-md bg-[#28D08A]' >Join</Link>
+    <div className='flex items-center mt-5 p-2 md:p-0'>
+    <input type="email" placeholder='Email address' className='border input:font-display input:text-[5px] input:font-regular outline-none pt-[3px] pb-[3px] pl-[10px] pr-[15px] border-[#FFFFFF] rounded-md placeholder:text-[18px] placeholder:font-display  placeholder:pl-1 placeholder:font-regular'/>
+    <Link to="mailto:techieemmax@gmail.com" className='pt-[3px] pb-[3px] pl-[10px] -ml-18 pr-[10px] text-[#FFFFFF] font-display font-regular rounded-md bg-[#28D08A]' >Join</Link>
     </div>
   </span>
 </h5>

@@ -24,8 +24,8 @@ const Baatc = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center bg-[#171A1F] m-2 md:m-0">
         <img src="/Rectangle (1).png" className="" />
-        <div className="flex flex-col items-center justify-center">
-          <p className="font-display font-bold text text-[49px] ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
+        <div className="p-1 md:p-0 flex flex-col items-center justify-center">
+          <p className="font-display font-bold text-[35px] text-left ml-3 md:ml-0 mt-5 mb-5 md:mt-0 text-[#FFFFFF] leading-tight">
             Personalize your business
             <br />
             <mark className="bg-[#171A1F] text-[#28D08A]"> strategy</mark> to
@@ -33,16 +33,14 @@ const Baatc = () => {
             <span className="mt-5">
               <p className="font-display font-regular text-[20px] text-[#FFFFFF]">
                 Our advisors approach each client individually, so each time we
-                <br />
-                select the appropriate insurance for your needs. Thanks to
-                <br />
-                conversation, we will adjust the appropriate cover.
+                <br className="hidden md:block"/> select the appropriate insurance for your needs. Thanks to
+                <br className="hidden md:block"/> conversation, we will adjust the appropriate cover.
               </p>
             </span>
           </p>
-          <span className="flex  md:ml-0 mb-5 md:mb-0 items-center">
-            <img src="/Frame 52.png" alt="fuck" className="w-[20%]"/>
-            <img src="/Frame 54.png" alt="fuck" className="w-[20%]"/>
+          <span className="flex pl-15 md:ml-0 mb-5 md:mb-0 items-center">
+            <img src="/Frame 52.png" alt="fuck" className="w-[51%]"/>
+            <img src="/Frame 54.png" alt="fuck" className="w-[51%]"/>
           </span>
         </div>
       </div>

@@ -22,7 +22,7 @@ const Contact = () => {
             <br />
             and answer any question
           </p>
-          <div className="flex items-center gap-15 mt-10 px-5 md:px-0">
+          <div className="flex items-center gap-10 md:gap-15 mt-10 px-5 md:px-0">
             <div>
               <span className="flex items-center gap-4">
                 <svg
@@ -71,12 +71,12 @@ const Contact = () => {
                   Mail Address
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] sm:mt-2 md:mt-0 text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] text-[#6F7681]">
                 Info@example.com
               </p>
             </div>
           </div>
-          <div className="flex mt-5 gap-23 md:gap-25 px-5 md:px-0">
+          <div className="flex mt-5 gap-10 md:gap-15 px-5 md:px-0">
             <div>
               <span className="flex items-center gap-4">
                 <svg
@@ -99,7 +99,7 @@ const Contact = () => {
                   Working Hours
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] sm:mt-2 md:mt-0 sm:pr-17 md:pl-0 text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] text-[#6F7681]">
                 Mon - Friday
                 <span className="block">9a.m - 8 p.m</span>
               </p>
@@ -126,7 +126,7 @@ const Contact = () => {
                   Office Address
                 </p>
               </span>
-              <p className="font-regular font-display text-[16px] mt-2 md:mt-0 sm:pr-17 md:pr-0 text-[#6F7681]">
+              <p className="font-regular font-display text-[16px] mt-2 md:mt-0 text-[#6F7681]">
                 Ikoyi, Lagos.
               </p>
             </div>
@@ -165,7 +165,7 @@ const Contact = () => {
             className="mt-5 pt-2 pl-2 pr-30 md:pr-68 pb-40 rounded-lg  bg-[#F1F1F1]  font-display"
           />
           <span className="block">
-            <button className="border border-[#28D08A] rounded-lg pr-34 md:pr-46 pl-38 md:pl-46 pt-4 pb-4 mt-3 font-display bg-[#28D08A] font-bold text-[#FFFFFF]">
+            <button className="border border-[#28D08A] rounded-lg pr-30 md:pr-46 pl-30 md:pl-46 pt-4 pb-4 mt-3 font-display bg-[#28D08A] font-bold text-[#FFFFFF]">
               Send Message
             </button>
           </span>
